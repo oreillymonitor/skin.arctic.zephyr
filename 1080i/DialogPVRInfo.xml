@@ -137,12 +137,17 @@
                             <textcolor>Dark1</textcolor>
                             <include>DefDialogInfoHeader</include>
                             <label>$INFO[ListItem.Title]</label>
-                            <label>[COLOR=$VAR[ColorHighlight]]$INFO[ListItem.EpisodeName][/COLOR]</label>
                         </control>
                         <control type="group">
                             <height>50</height>
                             <control type="label">
-                                <posy>-10</posy>
+                            <posy>-10</posy>
+                            <width>100%</width>
+                            <textcolor>Dark1</textcolor>
+                            <label>[COLOR=$VAR[ColorHighlight]]$INFO[ListItem.EpisodeName][/COLOR]</label>
+                        </control>
+                            <control type="label">
+                                <posy>-5</posy>
                                 <width>100%</width>
                                 <height>36</height>
                                 <font>Tiny</font>
